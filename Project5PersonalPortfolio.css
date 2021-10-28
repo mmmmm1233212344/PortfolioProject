@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Quicksand:wght@400&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -149,3 +150,56 @@ padding-left:150px;
    
  }
  /* Pricing Table starts here*/
+ .pricecontainetext h1{
+  text-align: center; /* here pricing heading style is defined */
+  font-size: 50px;
+
+}.pricing{
+  margin-top: 60px;
+  padding: 20px;
+}
+.pricecontainer{
+
+  display:flex;
+  justify-content: space-evenly;
+ 
+} .pricebox{
+  width: 300px;
+  background-color: rgb(45, 52, 62);
+  text-align: left;
+  padding: 20px;
+  
+  text-decoration: none;
+ ;
+}
+.pricecontainer{
+  margin-top: 40px;
+}.pricecontainer  h3,h4{
+  text-align: center ;
+  font-family: 'Quicksand',sans-serif;
+  font-size: 40px;
+  
+}.pricebox li{
+  width: 300px;
+  background-color: rgb(45, 52, 62);
+list-style-type:none;
+  text-align:center;
+  line-height: 50px;
+  margin-top: 20px;
+ 
+}.hirebox{
+  font-family: 'Quicksand',sans-serif;
+  font-weight:lighter ;
+   
+   margin-top:50%;
+  width:100px;
+  text-align: center;
+    background-color: green;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+border-bottom-right-radius:30px;
+  padding:10px;
+  color: white;
+  text-decoration: none;
+}
