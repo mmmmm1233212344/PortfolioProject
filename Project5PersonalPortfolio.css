@@ -94,7 +94,58 @@ display: inline-flex;
   color: rgb(114, 192, 231);
   position:absolute;
   margin-top: 50px;
-
+font-size: 30px;
  width:600px;
  
 }
+/* Now Project Section Starts*/
+.projects{
+  padding: 20px;
+}
+.projects h2{
+  text-align: center;
+  font-size: 50px;
+}
+.recentworks1{
+display: flex;
+justify-content: space-between;
+max-width: 100px;
+padding-left:150px;
+
+  
+}.recentworks2{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100px;
+  padding-left:150px;
+}
+.recent-size{
+  width: 500px;
+  height: auto;
+}
+.recent1{
+  margin-left:10px;
+  margin-right:100px;
+  margin-top: 20px;
+  }
+  .recent2{
+    margin-left:10px;
+    
+    margin-top: 20px;
+    }
+  .recent3{
+    margin-left:10px;
+    margin-right:100px;
+    margin-top: 20px;
+  }
+  .recent4{
+    margin-left:10px;
+    
+    margin-top: 20px;
+  
+  }
+ .projects  a{
+   text-decoration: none;
+   
+ }
+ /* Pricing Table starts here*/
