@@ -87,6 +87,7 @@ display: inline-flex;
 
 }
 .about p{
+  font-family: 'Quicksand',sans-serif;
   margin-top: 100px;
   max-width: 600px;
 }.aboout-img{
@@ -112,6 +113,7 @@ display: flex;
 justify-content: space-between;
 max-width: 100px;
 padding-left:150px;
+text-align: center;
 
   
 }.recentworks2{
@@ -122,7 +124,7 @@ padding-left:150px;
 }
 .recent-size{
   width: 500px;
-  height: auto;
+  height: 300px;
 }
 .recent1{
   margin-left:10px;
@@ -154,7 +156,7 @@ padding-left:150px;
   text-align: center; /* here pricing heading style is defined */
   font-size: 50px;
 
-}.pricing{
+}.pricingandreview{
   margin-top: 60px;
   padding: 20px;
 }
@@ -163,7 +165,7 @@ padding-left:150px;
   display:flex;
   justify-content: space-evenly;
  
-} .pricebox{
+} .box{
   width: 300px;
   background-color: rgb(45, 52, 62);
   text-align: left;
@@ -179,7 +181,7 @@ padding-left:150px;
   font-family: 'Quicksand',sans-serif;
   font-size: 40px;
   
-}.pricebox li{
+}.box li{
   width: 300px;
   background-color: rgb(45, 52, 62);
 list-style-type:none;
@@ -203,3 +205,31 @@ border-bottom-right-radius:30px;
   color: white;
   text-decoration: none;
 }
+/*here review styles are sldjflskdflksstarts here*/
+.reviewtext h1{
+  text-align: center; /* here pricing heading style is defined */
+  font-size: 50px;}
+  .reviewcontainer1{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 40px;
+  }
+  
+  .reviewcontainercontent1{
+    text-align: center;
+    height: 300px;
+    padding: 30px;
+    line-height: 40px;
+    
+  }
+  .review-image{
+  
+    border-radius: 50%;
+    width: 80px;
+  }
+  .review-image2{
+    border-radius: 50%;
+    width: 70px;
+    height: 60px;
+    
+  }
